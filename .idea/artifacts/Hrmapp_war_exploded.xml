@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Hrmapp:war_exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Hrmapp_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Hrmapp/web/Web" />
+      <element id="module-output" name="Hrmapp" />
+    </root>
+  </artifact>
+</component>
