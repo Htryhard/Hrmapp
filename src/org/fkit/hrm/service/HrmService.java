@@ -48,13 +48,13 @@ public interface HrmService {
 	
 	/**
 	 * 修改用户
-	 * @param User 用户对象
+	 * @param user 用户对象
 	 * */
 	void modifyUser(User user);
 	
 	/**
 	 * 添加用户
-	 * @param User 用户对象
+	 * @param user 用户对象
 	 * */
 	void addUser(User user);
 	
@@ -144,7 +144,7 @@ public interface HrmService {
 	
 	/**
 	 * 添加职位
-	 * @param Job 部门对象
+	 * @param job 部门对象
 	 * */
 	void addJob(Job job);
 	
@@ -157,7 +157,7 @@ public interface HrmService {
 	
 	/**
 	 * 修改职位
-	 * @param dept 部门对象
+	 * @param job 部门对象
 	 * */
 	void modifyJob(Job job);
 	
@@ -183,13 +183,13 @@ public interface HrmService {
 	
 	/**
 	 * 添加公告
-	 * @param Notice 公告对象
+	 * @param notice 公告对象
 	 * */
 	void addNotice(Notice notice);
 	
 	/**
 	 * 修改公告
-	 * @param Notice 公告对象
+	 * @param notice 公告对象
 	 * */
 	void modifyNotice(Notice notice);
 	
@@ -201,7 +201,7 @@ public interface HrmService {
 	
 	/**
 	 * 添加文档
-	 * @param Document 文件对象
+	 * @param document 文件对象
 	 * */
 	void addDocument(Document document);
 	
@@ -220,7 +220,7 @@ public interface HrmService {
 	
 	/**
 	 * 修改文档
-	 * @param Document 公告对象
+	 * @param document 公告对象
 	 * */
 	void modifyDocument(Document document);
 	

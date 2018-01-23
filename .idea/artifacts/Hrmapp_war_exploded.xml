@@ -3,7 +3,11 @@
     <output-path>$PROJECT_DIR$/out/artifacts/Hrmapp_war_exploded</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="Hrmapp/web/Web" />
-      <element id="module-output" name="Hrmapp" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Hrmapp" />
+        </element>
+      </element>
     </root>
   </artifact>
 </component>
